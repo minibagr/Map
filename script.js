@@ -82,13 +82,6 @@ function showData(items, group, icon) {
 function createClusterGroup() {
     return L.markerClusterGroup({
         maxClusterRadius: 30,
-        iconCreateFunction: function (cluster) {
-            return L.divIcon({
-                html: "<p>" + cluster.getChildCount() + "</p>",
-                className: "group-icon",
-                iconSize: L.point(30, 30),
-            });
-        },
         showCoverageOnHover: false,
     });
 }
