@@ -26,8 +26,8 @@
     width: 50px;
     height: 50px;
     position: absolute;
-    top: -20;
-    left: -20;
+    top: -10;
+    left: -10;
     border-radius: 50%;
     background-color: rgba(18, 232, 14, 0.3);
     z-index: 1;
